@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <style>
+        .background {
+            background-image: radial-gradient(#eb6725,hsl(252, 82%, 57%));
+            border-radius: 100%;
+            filter: blur(50px);
+            animation: rotate 50s linear infinite forwards;
+            background-size: 150%;
+            position: fixed;
+            bottom: 2%;
+            left: 25%;
+            width: 700px;
+            height: 100%;
+            z-index: -1;
+            }
+
+        @keyframes rotate {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+            }
+
+        @keyframes gradeInOut {
+        0% {background-position: left;}
+        100% {background-position: right;}
+            }
+    </style>
+
+</head>
+<body>
+        <h3 class="pageTitle">Contact</h3>
+        <div class="contactContainer">
+            <p>Feel free to get in touch, whether it's about work, collaborations or you fancy a chat.</p>
+        </div> 
+        <div class="background"></div>
+        <div class="contactContainer">
+            <p>Send an email to <a href="mailto:leoniewalkmc@gmail.com">leoniewalkmc@gmail.com</a> or through <a href="https://www.linkedin.com/in/leonie-mcintosh-10a195170/" target="_blank">Linkedin</a>.</p>
+        </div>
+        
+    
+</body>
+
+<!-- <footer>
+    <p>TECH.LEE Leonie McIntosh 2023</p>
+</footer> -->
+
+
+</html>
