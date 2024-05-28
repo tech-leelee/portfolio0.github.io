@@ -8,7 +8,7 @@ body{
   margin: 0;
 }
 
-h1, h2, h3{
+h1, h2, h3, h5{
   font-family: secondFont;
 }
 
@@ -23,6 +23,7 @@ p {
 }
 
 a {
+  color: black;
   text-decoration: none;
   position: relative;
 }
@@ -45,6 +46,11 @@ a:hover::before {
   justify-content: space-around;
   font-family: 'Poppins', sans-serif;
   font: 100;
+}
+
+.homenav {
+  display: flex;
+  padding-left: 50px;
 }
 
 .sectionIntro {
@@ -72,6 +78,12 @@ a:hover::before {
   margin-bottom: 20px;
 }
 
+@media (max-width: 400px) {
+  .bigT {
+    font-size: 30px;
+  }
+}
+
 .intro { 
   text-align: center;
   color:#f9f9f9;
@@ -92,7 +104,7 @@ a:hover::before {
   flex-wrap: wrap;
   gap: 35px;
   justify-content: space-evenly;
-  padding: 5%;
+  padding: 2%;
 }
 
 #sectionProject {
@@ -123,7 +135,10 @@ li {
 
 
 footer{
+  display: flex;
+  justify-content: end;
+  align-items: end;
   text-align: center;
   background-color: #f9f9f9;
-  padding: 5px 5px;
+  font-size: 3px;
 }
